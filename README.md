@@ -4,7 +4,7 @@
 
 I build things from first principles: hand-written backprop, no-`scipy` calibrations, engines validated against independently computed references. I care about out-of-sample honesty more than in-sample Sharpe.
 
-🎯 **Looking for a quant internship starting April–May 2027** (London preferred; open to Singapore / Dubai).
+🎯 **Looking for a quant internship starting April–May 2027** — London or Paris preferred; also open to New York, Chicago, Hong Kong, Singapore, Tokyo, Dubai and Amsterdam.
 
 ---
 
