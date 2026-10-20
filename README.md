@@ -16,7 +16,7 @@ I build things from first principles: hand-written backprop, no-`scipy` calibrat
 | [**spx-vol-surface**](https://github.com/lucaspaulien/spx-vol-surface) | SVI & Heston implied-vol surface calibration on real SPX options, smile-adjusted Greeks, out-of-sample benchmark vs. a flat-vol Black–Scholes baseline — no `scipy`. | Python · Optimisation |
 | [**qrt-allocation-returns**](https://github.com/lucaspaulien/qrt-allocation-returns) | QRT data challenge: next-day direction of 278 systematic allocations. Rebuilding the shuffled calendar from overlapping return windows, purged chronological CV, shrunk per-allocation momentum loadings. | LightGBM · Time series |
 | [**infinyxa-labs**](https://github.com/lucaspaulien/infinyxa-labs) | Human-in-the-loop systematic trading simulator: 9 strategies (TSMOM, XS momentum, stat-arb pairs, risk parity…), risk overlay, walk-forward validation, Deflated Sharpe, 480+ numerical tests. | FastAPI · React/TS |
-| [**alm-stochastic-engine**](https://github.com/lucaspaulien/alm-stochastic-engine) | Bank ALM / IRRBB engine: EVE & NII under the 6 EBA shocks, Vasicek Monte Carlo VaR, behavioural non-maturing deposits, DV01 swap immunisation. | NumPy · Statsmodels · Plotly |
+| [**qrt-leukemia-survival**](https://github.com/lucaspaulien/qrt-leukemia-survival) | QRT × Gustave Roussy challenge: right-censored survival ranking (IPCW C-index) with leave-hospitals-out CV, multi-horizon IPCW XGBoost + Cox ensemble beating IPSS-M on 15/15 held-out hospital folds. | XGBoost · Survival analysis |
 
 ---
 
