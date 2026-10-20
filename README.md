@@ -12,6 +12,7 @@ I build things from first principles: hand-written backprop, no-`scipy` calibrat
 
 | Project | What it is | Stack |
 |---|---|---|
+| [**crypto-market-making**](https://github.com/lucaspaulien/crypto-market-making) | Event-driven market-making backtester replayed on ~150M real Binance BTCUSDT / XRPUSDT book updates: queue-position fill model, latency, Avellaneda–Stoikov quoting, order-book-imbalance alpha, exact PnL attribution (spread capture, adverse selection, inventory, fees). Finding: queue priority is worth 0.6–1.35 bp of every dollar traded. | Numba · Microstructure |
 | [**deep_hedging**](https://github.com/lucaspaulien/deep_hedging) | NumPy-only replication of *Deep Hedging* (Buehler et al., 2019): a neural hedging policy trained with hand-written backprop-through-time to minimise entropic risk under transaction costs, benchmarked against Black–Scholes delta hedging. | NumPy · Monte Carlo |
 | [**spx-vol-surface**](https://github.com/lucaspaulien/spx-vol-surface) | SVI & Heston implied-vol surface calibration on real SPX options, smile-adjusted Greeks, out-of-sample benchmark vs. a flat-vol Black–Scholes baseline — no `scipy`. | Python · Optimisation |
 | [**qrt-allocation-returns**](https://github.com/lucaspaulien/qrt-allocation-returns) | QRT data challenge: next-day direction of 278 systematic allocations. Rebuilding the shuffled calendar from overlapping return windows, purged chronological CV, shrunk per-allocation momentum loadings. | LightGBM · Time series |
@@ -32,9 +33,9 @@ I build things from first principles: hand-written backprop, no-`scipy` calibrat
 
 ## 🛠️ Toolbox
 
-`Python` · `NumPy / pandas / scikit-learn` · `LightGBM` · `PyTorch` · `statsmodels` · `FastAPI` · `React / TypeScript` · `SQL` · `Git`
+`Python` · `NumPy / pandas / scikit-learn` · `Numba` · `LightGBM` · `XGBoost` · `PyTorch` · `statsmodels` · `FastAPI` · `React / TypeScript` · `SQL` · `Git`
 
-Interests: derivatives pricing & hedging, volatility modelling, systematic strategies, time-series ML, interest-rate risk.
+Interests: market making & market microstructure, derivatives pricing & hedging, volatility modelling, systematic strategies, time-series ML, interest-rate risk.
 
 ---
 
