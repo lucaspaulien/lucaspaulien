@@ -43,4 +43,4 @@ Interests: derivatives pricing & hedging, volatility modelling, systematic strat
 
 [LinkedIn](https://www.linkedin.com/in/lucas-paulien-) · lucas.paulien-camy@ensae.fr
 
-<sub>Off the keyboard: former pro rugby player, guitarist and singer in a Basque music band, mentor with Ô Talents.</sub>
+<sub>Off the keyboard: former pro rugby player, guitarist and singer in a Basque band, mentor with Ô Talents.</sub>
