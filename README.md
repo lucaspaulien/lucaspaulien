@@ -1,10 +1,10 @@
 # Hi, I'm Lucas 👋
 
-**Quantitative researcher & developer** — MSc Quantitative Finance, École Polytechnique × ENSAE Paris (class of 2027). Co-founder of [InfinyXa](https://github.com/lucaspaulien/infinyxa-labs), a quant research startup. Former professional rugby player (Pro D2 / Nationale 1, 2020–2026).
+**Quantitative researcher & developer.** MSc Quantitative Finance, École Polytechnique × ENSAE Paris (class of 2027). Co-founder of InfinyXa, a quant research startup. Former professional rugby player (Pro D2 / Nationale 1, 2020–2026).
 
 I build things from first principles: hand-written backprop, no-`scipy` calibrations, engines validated against independently computed references. I care about out-of-sample honesty more than in-sample Sharpe.
 
-🎯 **Looking for a quant internship starting April–May 2027** — London or Paris preferred; also open to New York, Chicago, Hong Kong, Singapore, Tokyo, Dubai and Amsterdam.
+🎯 **Looking for a quant internship starting April–May 2027**: London or Paris preferred; also open to New York, Chicago, Hong Kong, Singapore, Tokyo, Dubai and Amsterdam.
 
 ---
 
@@ -12,31 +12,30 @@ I build things from first principles: hand-written backprop, no-`scipy` calibrat
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**crypto-market-making**](https://github.com/lucaspaulien/crypto-market-making) | Event-driven market-making backtester replayed on ~150M real Binance BTCUSDT / XRPUSDT book updates: queue-position fill model, latency, Avellaneda–Stoikov quoting, order-book-imbalance alpha, exact PnL attribution (spread capture, adverse selection, inventory, fees). Finding: queue priority is worth 0.6–1.35 bp of every dollar traded. | Numba · Microstructure |
-| [**pca-stat-arb**](https://github.com/lucaspaulien/pca-stat-arb) | Avellaneda–Lee PCA statistical arbitrage on a point-in-time S&P 500, 2003–2026: eigenportfolio hedging, Ornstein–Uhlenbeck s-scores, volume time. Gross Sharpe 0.9–1.2 market-neutral, but break-even at 2–6 bp of costs and a decaying edge, measured with execution lag, no-trade bands and survivorship-bias checks. | NumPy · Equity stat arb |
 | [**deep_hedging**](https://github.com/lucaspaulien/deep_hedging) | NumPy-only replication of *Deep Hedging* (Buehler et al., 2019): a neural hedging policy trained with hand-written backprop-through-time to minimise entropic risk under transaction costs, benchmarked against Black–Scholes delta hedging. | NumPy · Monte Carlo |
-| [**spx-vol-surface**](https://github.com/lucaspaulien/spx-vol-surface) | SVI & Heston implied-vol surface calibration on real SPX options, smile-adjusted Greeks, out-of-sample benchmark vs. a flat-vol Black–Scholes baseline — no `scipy`. | Python · Optimisation |
 | [**qrt-allocation-returns**](https://github.com/lucaspaulien/qrt-allocation-returns) | QRT data challenge: next-day direction of 278 systematic allocations. Rebuilding the shuffled calendar from overlapping return windows, purged chronological CV, shrunk per-allocation momentum loadings. | LightGBM · Time series |
-| [**infinyxa-labs**](https://github.com/lucaspaulien/infinyxa-labs) | Human-in-the-loop systematic trading simulator: 9 strategies (TSMOM, XS momentum, stat-arb pairs, risk parity…), risk overlay, walk-forward validation, Deflated Sharpe, 480+ numerical tests. | FastAPI · React/TS |
+| [**spx-vol-surface**](https://github.com/lucaspaulien/spx-vol-surface) | SVI & Heston implied-vol surface calibration on real SPX options, smile-adjusted Greeks, out-of-sample benchmark vs. a flat-vol Black–Scholes baseline, with no `scipy`. | Python · Optimisation |
 | [**qrt-leukemia-survival**](https://github.com/lucaspaulien/qrt-leukemia-survival) | QRT × Gustave Roussy challenge: right-censored survival ranking (IPCW C-index) with leave-hospitals-out CV, multi-horizon IPCW XGBoost + Cox ensemble beating IPSS-M on 15/15 held-out hospital folds. | XGBoost · Survival analysis |
+| [**crypto-market-making**](https://github.com/lucaspaulien/crypto-market-making) | Event-driven market-making backtester on ~150M real Binance perpetual book updates (BTCUSDT, XRPUSDT): queue position, latency, post-only rejections, Avellaneda–Stoikov quotes, order-book-imbalance alpha, exact PnL attribution (spread, adverse selection, inventory, fees). | numba · Market microstructure |
+| [**pca-stat-arb**](https://github.com/lucaspaulien/pca-stat-arb) | Replication of Avellaneda & Lee (2010) on 23 years of point-in-time S&P 500: 15 PCA eigenportfolios, Ornstein–Uhlenbeck s-scores, factor-hedged book, break-even transaction-cost analysis. | pandas · Statistical arbitrage |
 
 ---
 
 ## 🧭 Background
 
-- **École Polytechnique × ENSAE Paris** — MSc Quantitative Finance (2026–2027): stochastic calculus, derivatives pricing & hedging, financial econometrics, ML for portfolio management.
-- **Banque de France** — research project (2026–2027): macro narratives from news (NLP on GDELT) and dislocations in rates markets.
-- **Société Générale Private Banking, Luxembourg** — quant analyst intern (2026): modelling the stable part of non-maturing deposits by currency and business line, 12 independent studies.
-- **INSA Toulouse** — Engineering degree in applied mathematics & scientific computing (top 10 %), incl. one year in the UK.
-- **InfinyXa** (since 2025) — co-founder; statistical arbitrage & momentum research, in-house backtesting platform, portfolio-optimisation engine for a wealth-management product (risk-based & mean–variance allocation with real constraints and costs, ML signals, regime detection).
+- **École Polytechnique × ENSAE Paris**, MSc Quantitative Finance (2026–2027): stochastic calculus, derivatives pricing & hedging, financial econometrics, ML for portfolio management.
+- **Banque de France**, research project (2026–2027): macro narratives from news (NLP on GDELT) and dislocations in rates markets.
+- **Société Générale Private Banking (Luxembourg)**, quant analyst intern (2026): modelling the stable part of non-maturing deposits by currency and business line, 12 independent studies.
+- **INSA Toulouse**, engineering degree in applied mathematics & scientific computing (top 10 %), incl. one year in the UK.
+- **InfinyXa** (since 2025), co-founder: statistical arbitrage & momentum research, in-house backtesting platform, portfolio-optimisation engine for a wealth-management product (risk-based & mean–variance allocation with real constraints and costs, ML signals, regime detection).
 
 ---
 
 ## 🛠️ Toolbox
 
-`Python` · `NumPy / pandas / scikit-learn` · `Numba` · `LightGBM` · `XGBoost` · `PyTorch` · `statsmodels` · `FastAPI` · `React / TypeScript` · `SQL` · `Git`
+`Python` · `NumPy / pandas / scikit-learn` · `LightGBM` · `PyTorch` · `statsmodels` · `FastAPI` · `React / TypeScript` · `SQL` · `Git`
 
-Interests: market making & market microstructure, statistical arbitrage, derivatives pricing & hedging, volatility modelling, systematic strategies, time-series ML, interest-rate risk.
+Interests: derivatives pricing & hedging, volatility modelling, systematic strategies, time-series ML, interest-rate risk.
 
 ---
 
